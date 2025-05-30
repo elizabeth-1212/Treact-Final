@@ -54,6 +54,29 @@ nav {
     padding-bottom: 2px;
 }
 
+.nav__link, .nav__link--primary {
+    width: 100%;
+    margin-left: 42px;
+    font-size: 14px;
+    font-weight: 600; 
+    
+}
+
+.nav__link--primary {
+    background-color: #6415ff;;
+    color: #fff;
+    padding: 10px 32px;
+    border-radius: 40px;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.nav__link--primary:hover {
+    text-decoration: none;
+}
+
 ul {
     display: flex;
 }
