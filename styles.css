@@ -99,3 +99,13 @@ a {
 #landing {
     padding: 0 32px;
 }
+
+
+
+/*HEADER*/
+
+
+
+.header__container {
+    display: flex;
+}
