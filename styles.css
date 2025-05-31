@@ -108,6 +108,11 @@ a {
 
 
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
 .container {
     padding: 96px 0;
 }
@@ -122,4 +127,31 @@ a {
 
 .header__img {
     width: 40%;
+}
+
+h1 {
+    font-size: 40px;
+    color: #1a202c;
+}
+
+p {
+    margin: 32px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.header__customers {
+    margin-top: 80px;
+    color: #a0aec0;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+
+.img__customers--logos {
+    margin-top: 16px;
+    
+    opacity: 0.5;
 }
