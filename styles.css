@@ -109,7 +109,9 @@ a {
 
 
 
+
 /*HEADER*/
+
 
 
 
@@ -207,4 +209,15 @@ img {
 
 .btn__email--input:hover {
     background-color: rgb(60, 13, 153);
+}
+
+
+
+/*FEATURES*/
+
+
+
+
+#features {
+    padding: 0 32px;
 }
