@@ -63,8 +63,8 @@ nav {
     font-size: 24px;
     font-weight: 900;
     margin-left: 12px;
-    letter-spacing: 1.6px;
-    padding-bottom: 2px;
+    letter-spacing: 0.6px;
+    padding-bottom: 2px;  
 }
 
 .nav__logo {
@@ -81,21 +81,24 @@ nav {
 }
 
 .nav__link {
-    width: 100%;
-    margin-left: 42px;
+    margin: 0 24px;
     font-size: 14px;
     font-weight: 600;
+    letter-spacing: .35px;
+    border-bottom: 2px solid transparent;
     transition: all 300ms; 
 }
 
 .nav__link--primary {
-    width: 100%;
-    margin-left: 42px;
+    width: auto;
+    
     font-size: 14px;
     font-weight: 600;
+    line-height: 1.5;
     background-color: #6415ff;
     color: #fff;
     padding: 10px 32px;
+    margin-top: 2px;
     border-radius: 40px;
     transition: all 300ms;
 }
@@ -122,6 +125,72 @@ a {
 }
 
 
+.btn__menu {
+    display: none;
+    background: transparent;
+    border: none;
+    transition: all 300ms ease;
+}
+
+.btn__menu--svg:hover {
+    filter: invert(26%) sepia(94%) saturate(7476%) hue-rotate(261deg) brightness(94%) contrast(115%);
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 378px;
+    margin: 24px 16px;
+    padding: 32px;
+    background-color: #fff;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 8px;
+    z-index: 4;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(300%);
+    transition: all 300ms ease;
+}
+
+.modal__links {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal__link {
+    color: #1a202c;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 8px 0;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+}
+
+.modal__link--primary {
+    color: #f7fafc;
+    padding: 12px 32px;
+    background: #6415ff;
+    border-radius: 500px;
+    border: none;
+}
+
+.menu--open .modal {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.btn__menu--close {
+    position: fixed;
+    top: 24px;
+    right: 18px;
+}
 
 
 
@@ -362,3 +431,11 @@ img {
     display: flex;
     align-items: center;
 }
+
+
+
+
+/*STEPS*/
+
+
+
