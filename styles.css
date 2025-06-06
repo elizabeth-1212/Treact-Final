@@ -36,6 +36,29 @@ main {
     margin-bottom: 96px;
 }
 
+.section__h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #6415ff;
+    letter-spacing: 1.6px;
+}
+
+.section__h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+    line-height: 1.5;
+    margin: 16px 0;
+}
+
+.section__para {
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 576px;
+    color: #7c8ba1;
+    line-height: 1.625;
+}
+
 
 
 
@@ -307,30 +330,6 @@ img {
     align-items: center;
 }
 
-.features__h4 {
-    font-size: 16px;
-    font-weight: 700;
-    color: #6415ff;
-    letter-spacing: 1.6px;
-}
-
-.features__h1 {
-    font-size: 48px;
-    font-weight: 900;
-    color: rgb(36, 62, 99);
-    line-height: 1.5;
-    margin: 16px 0;
-}
-
-.features__para1 {
-    font-size: 18px;
-    font-weight: 500;
-    max-width: 576px;
-    color: #7c8ba1;
-    line-height: 1.625;
-    text-align: center;
-}
-
 .features {
     display: flex;
     flex-wrap: wrap;
@@ -385,29 +384,6 @@ img {
     width: 50%;
 }
 
-.quality__h4 {
-    font-size: 16px;
-    font-weight: 700;
-    color: #6415ff;
-    letter-spacing: 1.6px;
-}
-
-.quality__h1 {
-    font-size: 48px;
-    font-weight: 900;
-    color: rgb(36, 62, 99);
-    line-height: 1.25;
-    margin: 16px 0;
-}  
-
-.quality__para {
-    font-size: 18px;
-    font-weight: 500;
-    max-width: 576px;
-    color: #7c8ba1;
-    line-height: 1.625;
-}
-
 .quality__btn {
     background-color: #6415ff;
     padding: 12px 32px;
@@ -440,20 +416,7 @@ img {
 
 
 
-.steps__h4 {
-    font-size: 16px;
-    font-weight: 700;
-    color: #6415ff;
-    letter-spacing: 1.6px;
-}
 
-.steps__h1 {
-    font-size: 48px;
-    font-weight: 900;
-    color: rgb(36, 62, 99);
-    line-height: 1.25;
-    margin: 16px 0;
-}  
 
 .steps__img--wrapper {
     width: 50%;
@@ -512,29 +475,6 @@ img {
 
 .values__img--wrapper {
     width: 50%;
-}
-
-.values__h4 {
-    font-size: 16px;
-    font-weight: 700;
-    color: #6415ff;
-    letter-spacing: 1.6px;
-}
-
-.values__h1 {
-    font-size: 48px;
-    font-weight: 900;
-    color: rgb(36, 62, 99);
-    line-height: 1.25;
-    margin: 16px 0;
-}
-
-.values__para {
-    font-size: 18px;
-    font-weight: 500;
-    max-width: 576px;
-    color: #7c8ba1;
-    line-height: 1.625;
 }
 
 .value__name {
@@ -600,4 +540,18 @@ img {
 
 .values__btn:hover {
     background-color: rgb(60, 13, 153);
+}
+
+
+
+/*PRICES*/
+
+
+
+
+.text__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
