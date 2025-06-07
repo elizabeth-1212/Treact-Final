@@ -346,6 +346,10 @@ img {
     padding: 32px 24px;
 }
 
+#features .section__para {
+    text-align: center;
+}
+
 .feature__img {
     height: 24px;
     width: 24px;
@@ -544,7 +548,51 @@ img {
 
 
 
-/*PRICES*/
+/*PRICING*/
 
+
+
+#pricing .section__para {
+    text-align: center;
+}
+
+.pricing__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing__plans {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.plan {
+    width: 100%;
+    max-width: 384px;
+    margin: 64px 32px 0 0;
+    padding-top: 8px;
+    border-radius: 8px;
+}
+
+.plan__price, .plan__info, .plan__btn {
+    padding: 32px;
+    text-align: center;
+}
+
+.stripe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+}
+
+.plan:nth-child(1) .plan__stripe, .plan:nth-child(1) .plan__btn {
+    color: #f7fafc;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
 
 
