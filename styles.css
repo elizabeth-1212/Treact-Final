@@ -862,6 +862,12 @@ path[Attributes Style] {
     width: 50%;
 }
 
+.test__text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 64px;
+}
+
 .test__rating i {
     color: rgba(246, 173, 85);
     margin-right: 2px;
@@ -887,11 +893,18 @@ path[Attributes Style] {
     line-height: 1.625;
 }
 
-.test__img {
+.user__img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
 }
+
+.test__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 .test__user {
     display: flex;
