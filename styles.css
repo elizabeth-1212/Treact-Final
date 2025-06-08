@@ -904,8 +904,6 @@ path[Attributes Style] {
     justify-content: space-between;
 }
 
-
-
 .test__user {
     display: flex;
     align-items: center;
@@ -935,6 +933,23 @@ path[Attributes Style] {
     border-radius: 50%;
     margin: 0 12px;
     transition: all 300ms;
+}
+
+.test__button:hover {
+    background-color: rgba(226, 232, 240);
+}
+
+svg[Attributes Style] {
+    fill: none;
+    stroke: rgb(100, 21, 255);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3;
+}
+
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
 }
 
 .divider {
