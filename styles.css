@@ -147,6 +147,11 @@ a {
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+    border: none;
+}
+
 
 .btn__menu {
     display: none;
@@ -595,7 +600,7 @@ img {
     height: 8px;
 }
 
-.plan:nth-child(1) .plan__stripe, .plan:nth-child(1) .plan__btn {
+.plan:nth-child(1) .plan__stripe, .plan:nth-child(1) .pricing__btn {
     color: #f7fafc;
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
@@ -604,7 +609,7 @@ img {
     visibility: hidden;
 }
 
-.plan:nth-child(3) .plan__stripe, .plan:nth-child(3) .plan__btn {
+.plan:nth-child(3) .plan__stripe, .plan:nth-child(3) .pricing__btn {
     color: #f7fafc;
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
@@ -660,4 +665,35 @@ img {
 
 .plan:nth-child(2) .plan__name, .plan:nth-child(2) .plan__price, .plan:nth-child(2) .plan__audience, .plan:nth-child(2) .plan__length, .plan:nth-child(2) .plan__feature {
     color: #f7fafc;
+}
+
+.plan__btn {
+    padding: 32px 96px;
+}
+
+.plan:nth-child(2) .pricing__btn {
+    color: #6415ff;
+    background-color: #f7fafc;
+}
+
+.pricing__btn {
+    text-align: center;
+    padding: 16px 32px;
+    border-radius: 500px;
+    border: none;
+    font-size: 14px;
+    width: 100%;
+    max-width: 192px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    transition: all 300ms;
+}
+
+.pricing__btn:hover {
+    transform: translate(1px, -1px);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+        rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;    
 }
