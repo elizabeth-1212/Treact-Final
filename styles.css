@@ -835,10 +835,10 @@ path[Attributes Style] {
     fill: rgb(255, 180, 188);
 }
 
-:not(svg) {
+/*:not(svg) {
     transform-origin: 0px 0px;
 }
-
+*/
 
 
 
@@ -947,7 +947,7 @@ svg[Attributes Style] {
     stroke-width: 3;
 }
 
-svg:not(:root) {
+.test__button svg:not(:root) {
     overflow-clip-margin: content-box;
     overflow: hidden;
     height: 10px;
