@@ -950,6 +950,8 @@ svg[Attributes Style] {
 svg:not(:root) {
     overflow-clip-margin: content-box;
     overflow: hidden;
+    height: 10px;
+    width: 10px;
 }
 
 .divider {
