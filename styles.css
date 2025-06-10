@@ -979,11 +979,17 @@ svg[Attributes Style] {
     padding: 96px 0;
 }
 
+#start .row {
+    position: relative;
+    overflow: hidden;
+}
+
 .start__title {
     font-size: 30px;
     font-weight: bold;
     color: #fff;
     width: 50%;
+    z-index: 2;
 }
 
 .start__btn {
@@ -1015,4 +1021,34 @@ svg[Attributes Style] {
     background-color:  #f7fafc;
     color: rgb(100, 21, 255);
 }
+
+.start__blob--1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-80px) translateY(128px) scaleX(1) scaleY(1);
+    width: 320px;
+    height: 320px;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.start__blob--2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(80px) translateY(-256px);
+    width: 320px;
+    height: 320px;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+
+
+
+/*FOOTER*/
+
+
+
 
