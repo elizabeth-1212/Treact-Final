@@ -14,6 +14,10 @@ body {
     overflow-x: hidden;
 }
 
+main {
+    margin-bottom: 96px;
+}
+
 .row {
     width: 100%;
     max-width: 1280px;
@@ -1052,3 +1056,27 @@ svg[Attributes Style] {
 
 
 
+footer {
+    background-color: rgb(100, 21, 255);
+    padding: 96px 32px;
+}
+
+.footer__row--column {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 5);
+    max-width: 48px 0 0;
+}
+
+.footer__column--title {
+    color: #f7fafc;
+    margin: 0 0 12px;
+}
+
+.footer__column--link {
+    color: #f7fafc;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 12px;
+
+}
