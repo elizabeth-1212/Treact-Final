@@ -835,10 +835,6 @@ path[Attributes Style] {
     fill: rgb(255, 180, 188);
 }
 
-/*:not(svg) {
-    transform-origin: 0px 0px;
-}
-*/
 
 
 
@@ -1063,7 +1059,6 @@ footer {
     display: flex;
     flex-direction: column;
     width: calc(100% / 5);
-    max-width: 48px 0 0;
     z-index: 2;
 }
 
