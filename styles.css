@@ -1213,6 +1213,7 @@ footer {
     }
 }
 
+
 @media (max-width: 1024px) {
 
     .btn__menu {
@@ -1222,15 +1223,23 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+    .features {
+        max-width: 768px;
+    }
+
     footer {
         padding: 80px 32px;
     }
 }
 
+
 @media(max-width: 768px) {
     #quality .row,
     #values .row {
         flex-direction: column-reverse;
+    }
+    .features {
+        justify-content: center;
     }
     #steps .row,
     #testimonials .row {
@@ -1241,6 +1250,7 @@ footer {
         margin-top: 40px;
     }
 }
+
 
 @media(max-width: 640px) {
     .container {
