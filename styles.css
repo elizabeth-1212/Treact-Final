@@ -1073,7 +1073,7 @@ footer {
 .footer__row--column {
     display: flex;
     flex-direction: column;
-    width: calc(100% / 5);
+    
     z-index: 2;
 }
 
