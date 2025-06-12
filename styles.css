@@ -259,8 +259,8 @@ header {
     width: calc(100% - 60%);
 }
 
-.header__img {
-    width: 40%;
+.header__img--wrapper {
+    width: calc(100% - 41.6667%);
     display: flex;
     justify-content: center;
 }
