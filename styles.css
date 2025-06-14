@@ -480,11 +480,30 @@ path[Attributes Style] {
 
 
 
-.quality__text {
+#quality .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quality__description, .quality__img--wrapper {
     width: 50%;
 }
 
-.quality__btn {
+.quality__description {
+    max-width: 576px;
+    margin-right: 64px;
+}
+
+#quality .section__title, #values .section__title {
+    line-height: 1.25;
+}
+
+#quality .btn {
+    margin-top: 32px;
+}
+
+.btn {
     background-color: #6415ff;
     padding: 12px 32px;
     border: none;
@@ -495,7 +514,7 @@ path[Attributes Style] {
     transition: all 300ms;
 }
 
-.quality__btn:hover {
+.btn:hover {
     background-color: rgb(60, 13, 153);
 }
 
@@ -507,10 +526,11 @@ path[Attributes Style] {
     display: flex;
     align-items: center;
     position: relative;
+    z-index: 2;
 }
 
 .quality__img {
-    z-index: 2;
+    z-index: 1;
 }
 
 .quality__grid {
@@ -546,18 +566,27 @@ path[Attributes Style] {
 
 
 
+#steps .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .steps__img--wrapper {
-    width: 50%;
+
     display: flex;
     position: relative;
+}
+
+.steps__description, .steps__img--wrapper {
+    width: 50%;
 }
 
 .steps__img {
     z-index: 2;
 }
 
-.steps__text {
-    width: 50%;
+.steps__description {
     padding: 32px 0;
     padding-left: 64px;
 }
