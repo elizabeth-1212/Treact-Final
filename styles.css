@@ -1284,13 +1284,14 @@ footer {
 .footer__social--link {
     margin: 16px;
     padding: 8px;
-    border-radius: 50px;
+    border-radius: 50%;
     color: #243e63;
     background-color: #f7fafc;
     cursor: pointer;
     transition: all 300ms;
     display: flex;
     align-items: center;
+    justify-content: center;
 } 
 
 .footer__social--link:hover {
