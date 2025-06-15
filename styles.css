@@ -1091,6 +1091,11 @@ svg[Attributes Style] {
     width: 50%;
 }
 
+.start__buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .start__button {
     padding: 20px 40px;
     border-radius: 500px;
