@@ -1320,6 +1320,14 @@ footer {
         padding-right: 64px;
     }
 
+    .plan__bottom {
+        padding: 32px 64px;
+    }
+
+    .plan__button {
+        max-width: none;
+    }
+
 
 }
 
@@ -1413,9 +1421,21 @@ footer {
     .value:nth-child(1), .value:nth-child(2) {
         margin-top: 40px;
     }
-}
+    
+    .plans {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan {
+        margin-right: 0px;
+    }
+
+
 
 }
+
+
 
 
 
@@ -1465,7 +1485,9 @@ footer {
         margin-left: 0;
     }
 
-    
+    .values__list {
+        margin: 0 auto;
+    }
 
     .value {
         display: flex;
@@ -1475,6 +1497,10 @@ footer {
 
     .value:nth-of-type(1) {
         margin-right: 0px;
+    }
+
+    #pricing .row {
+        margin-top: 40px;
     }
     
 
@@ -1558,30 +1584,27 @@ footer {
         margin-top: 48px;
     }
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 1280px) {
-    .plan__bottom {
-        padding: 32px 64px;
+    .plan__price {
+        font-size: 36px;
     }
+
+    .plan__bottom {
+        padding: 32px 48px;
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1280px) {
     .testimonials__img {
