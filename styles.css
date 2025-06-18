@@ -1674,7 +1674,17 @@ footer {
         align-items: center;
     }
 
-
 }
 
+
+@media (max-width: 1134px) {
+     .plans {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan {
+        margin-right: 0px;
+    }
+}
 
